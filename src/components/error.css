@@ -1,0 +1,9 @@
+.main-body{
+    padding: 20px;
+  }
+  
+  .text-error{
+    font-weight: 600px;
+    color: red;
+    margin-left: 9vw;
+  }

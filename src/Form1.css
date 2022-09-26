@@ -1,0 +1,145 @@
+.form-containerxc {
+ 
+  margin-left: 5vw;
+  margin-bottom: 0.1vw;
+  border-radius: 20px ;
+  height: 1080px;
+  width: 1980px;
+  display: grid;
+
+ 
+ 
+}
+.wrapper {
+  position:relative;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: transparent;
+  padding: 4px;
+  position: absolute;
+  box-sizing:border-box;
+  top:50%;
+  left:2px;
+  transform: translateY(-50%);
+}
+
+.input {
+  height: 50px;
+  box-sizing:border-box;
+  padding-left: 1.5rem;
+}
+.search__bar12 {
+  
+  display: inline;
+  margin-left: 24vw;
+  margin-top: 1vw;
+}
+
+.search__bar3 {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vw;
+  margin-left: 67.5vw;
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 22px;
+  width: 200px;
+  border: none;
+  outline: none !important;
+  border-radius: 10px;
+
+    box-shadow: 0 0 3px #080808;
+  }
+  
+.search__bar4 {
+ 
+  border: 2px solid #ffc107;
+  background-color: rgb(246, 241, 241);
+  box-shadow: 0 0 3px #ffc107;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vw;
+  margin-left: 30vw;
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 30px;
+  width: 200px;
+
+  outline: none !important;
+  border-radius: 10px;
+
+    box-shadow: 0 0 3px #080808;
+
+    
+  }
+  
+.search__bar1 {
+  margin-left: 7vw;
+} 
+ #searchOne{
+display: inline;
+color: #000;
+}
+#searchTwo{
+  display: inline;
+}
+.search__bar1 {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  border: 2px solid #ffc107;
+  background-color: white;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vw;
+  margin-left: 40vw;
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 300px;
+  border: none;
+  outline: none !important;
+  border-radius: 10px;
+
+   
+  }
+  
+.search__bar1 {
+  margin-left: 7vw;
+} 
+.input {
+  height: 5vh;
+  width: 15vw;
+
+  border: none;
+ 
+}
+focus {
+  outline: none;
+}
+.download-table-xls-button{
+ 
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+  color: white;
+  background: #ffc107;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  outline: none;
+  border: none;
+  color: rgb(245, 235, 235);
+  font-size: 1rem;
+  border-radius: 20px;
+}

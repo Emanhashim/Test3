@@ -1,0 +1,287 @@
+.form-container {
+ 
+  margin-left: 30vw;
+  margin: 10px auto;
+  width: 630px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+
+  height: 390px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #ffc107;
+  border-radius: 70px  3px 70px  3px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  font-size: 1.5rem;
+  z-index: 1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-content-left {
+  background: #f5f3ee;
+ 
+  border-radius: 60px;
+  position: relative;
+}
+
+.form-img {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-img-2 {
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-success {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 80px;
+  color: #fff;
+}
+
+.form-content-right {
+  border-radius: 0 10px 10px 0;
+  position: relative;
+  background: linear-gradient(90deg, rgb(255, 254, 254) 0%, rgb(255, 254, 254) 100%);
+
+}
+
+.form {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.form h1 {
+  font-size: 1rem;
+  text-align: start;
+  width: 80%;
+  margin-bottom: 1rem;
+  color: rgb(10, 10, 10);
+}
+.form h2 {
+  font-size: 2rem;
+  text-align: start;
+  width: 80%;
+  margin-bottom: 1rem;
+  color: rgb(10, 10, 10);
+}
+
+.form-inputsx {
+  margin-bottom: 10px;
+  width: 400px;
+
+}
+.form-inputsx i {
+  margin-left: 380px;
+  
+}
+.form-inputs {
+  margin-bottom: 0.5rem;
+  width: 400px;
+
+}
+
+.form-inputs p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: #f00e0e;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: 1.0rem;
+  margin-bottom: 6px;
+  color: rgb(12, 12, 12);
+  
+  
+}
+
+.form-inputAD {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 30px;
+  width: 100%;
+
+  outline: none !important;
+  border-radius: 10px;
+  border: 1px solid #ffc107;
+  box-shadow: 0 0 1px #ffc107;
+}
+
+.form-inputAD::placeholder {
+  color: #5f5f5f;
+  font-size: 10px;
+}
+
+
+
+
+
+.form-inputAD-btnx {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+  color: #ffffff;
+  border: 1px solid #e9e6e6;
+  background-color: #ffc107;
+  outline: none;
+
+  color: rgb(12, 12, 12);
+  font-size: 1rem;
+  border-radius: 10px  3px 10px  3px;
+}
+.form-inputAD-btnx:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 204, 38) 100%,
+    rgb(255, 204, 38) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+.form-input-btnx:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+.form-input-btn {
+  border-radius: 10px  3px 10px  3px;
+    border: 1px solid #e9e6e6;
+    background-color: rgb(236, 185, 17);
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    width: 200px;
+    height: 33px;
+    font-size: 11px;
+    padding: 4px 20px;
+    margin-left: 14rem;
+    margin-bottom: 90vw;
+    text-decoration: none;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-input-btn:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+.form-btn {
+  box-shadow: 0 0 2px #080808;
+  width: 500px;
+  height: 50px;
+  margin-top: 10px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(251, 255, 39) 0%,
+    rgb(251, 255, 39) 100%
+  );
+  outline: none;
+  border: none;
+  color: rgb(12, 12, 12);
+  font-size: 1rem;
+  border-radius: 20px;
+}
+
+.form-btn:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+
+.form-input-login {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: rgb(12, 12, 12);
+  width: 50%;
+  
+}
+
+.form-input-login a {
+  text-decoration: none;text-align: center;
+  color: #273dff;
+  font-weight: 600;
+}
+.form-success{
+  color: rgb(12, 12, 12);
+}
+.form-input-login1 a {
+  text-decoration: none;
+  color: #273dff;
+  font-weight: 500;
+  margin-right: auto;
+}
+.form-input-icon{
+  font-weight: 800;
+
+}
+
+.form-ver{
+  padding-left: 150px;
+  text-align: center;
+  margin-top: 200px;
+}
+.text-one{
+  text-align: center;
+  padding-right: 260px;
+}
+.visiblePassword{
+  margin-right: 39vw;
+}
+
+.Appx {
+  font-family: sans-serif;
+  text-align: center;
+  padding-left: 10px;
+margin-left: 16vw;
+width: unset;
+}
+.icongg{
+width: "400px";
+  grid-template-columns: "870px 270px";
+}
+.myLoading {
+  margin-left: "200px";
+}

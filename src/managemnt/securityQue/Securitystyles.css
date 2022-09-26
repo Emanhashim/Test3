@@ -1,0 +1,163 @@
+html {
+    box-sizing: border-box;
+    background-color: white;
+    padding: 1px;
+    
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  .Sfresh-form {
+     opacity: 1;
+    margin-top: 3vw;
+    border: 1px solid #ffc107;
+    font-family: Arial;
+    width: 550px;
+    height: 230px;
+    margin-right: 25vw;
+    background-color: white;
+    padding: 1.9rem;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.25);
+    border-top: 5px 5px solid steelblue;
+    border-radius: 70px  3px 70px  3px;
+  }
+  .Sfresh-formc {
+    opacity: 1;
+   margin-top: 3vw;
+   border: 2px solid #ffc107;
+   font-family: Arial;
+   width: 800px;
+   height: 330px;
+   margin-right: 35vw;
+   background-color: white;
+   padding: 1.9rem;
+   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.25);
+   border-top: 5px 5px solid steelblue;
+   border-radius: 40px;
+ }
+  
+  .fresh-label {
+    box-shadow: 0 0 3px #080808;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    color: rgb(71, 70, 70);
+  }
+  
+  .fresh-title {
+    margin-bottom: 0.5rem;
+  }
+  
+  .Sfresh-field-wrapper {
+    margin-bottom: 1.5rem;
+  }
+  
+  .Sfresh-input {
+    border: 1px solid #ffc107;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(246, 241, 241);
+
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 3px #ffc107;
+  }
+  .fresh-inputx {
+    width:  200px;
+    
+    height: 120px;
+    border-radius: 15px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    border: 2px solid #ffc107;
+  }
+  
+  .fresh-input-textarea {
+     border: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;  
+    height: 50px;
+    box-shadow: 0 0 3px #080808;
+    min-height: 150px;
+    width: 100%;
+    background-color: lightgrey;
+
+    padding: 0.1rem;
+    border-radius: 20px;
+  }
+  
+  .Sfresh-button {
+    border-radius: 10px  3px 10px  3px;
+    border: 1px solid #e9e6e6;
+    background-color: rgb(236, 185, 17);
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    width: 200px;
+    height: 33px;
+    font-size: 11px;
+    padding: 4px 20px;
+    margin-left: 14rem;
+    margin-bottom: 90vw;
+    text-decoration: none;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+  .mybutton{
+    border-radius: 20px;
+    color: #ffffff;
+    margin-bottom: 3vw;
+    display: inline-block;
+    background-color: rgb(21, 236, 17);
+    text-decoration: none;
+    width: 130px;
+    height:40px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+  .text-error{
+    
+    font-weight: 100;
+    color: red;
+    margin-left: 0.1vw;
+  }
+  .promo{
+    margin-left: 12vw; 
+  }
+  .desc{
+
+    width: 160px; 
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.descx{
+ 
+  display: inline-block;
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+.sideXButtonSecurity{
+  margin-left: 51rem;
+  margin-bottom: 1vw;
+  color: #ffc107;
+}
+img:hover {
+  transform: scale(3.5);
+  }
+  .securityView{
+    margin-bottom: 700vw;
+  }
+ 
+  .main_header{
+    margin-left: 20vw;
+  }
+  .main_headerP{
+    margin-left: 23vw;
+    box-shadow: 5px rgba(0, 0, 0, 0.2);
+  }
